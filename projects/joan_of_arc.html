@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="index, follow" />
+
+    <!-- Read and update content attributes accordingly  -->
+
+    <meta
+      name="description"
+      content="Welcome to my portfolio website. I am a Game Developer & Technical Level Designer. Explore my projects, open-source work and contact me for any inquiries or collaborations."
+    />
+
+    <!-- Google / Search Engine Tags -->
+<meta itemprop="name" content="Jules Vesnat's Portfolio">
+<meta itemprop="description" content="Welcome to my portfolio website. I am a Game Developer & Technical Level Designer. Explore my projects, open-source work and contact me for any inquiries or collaborations.">
+
+<!-- Reference screenshot of updated site's header in place of content -->
+<meta itemprop="image" content="assets/images/sharing-card.png">
+
+<!-- Facebook Meta Tags -->
+<meta property="og:url" content="https://ossportfolio.netlify.app">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Jules Vesnat's Portfolio">
+<meta property="og:description" content="Welcome to my portfolio website. I am a Game Developer & Technical Level Designer. Explore my projects, open-source work and contact me for any inquiries or collaborations.">
+
+<!-- Reference screenshot of updated site's header in content -->
+<meta property="og:image" content="assets/images/sharing-card.png">
+
+<!-- Twitter Meta Tags -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Jules Vesnat's Portfolio">
+<meta name="twitter:description" content="Welcome to my portfolio website. I am a Game Developer & Technical Level Designer. Explore my projects, open-source work and contact me for any inquiries or collaborations.">
+
+<!-- Reference screenshot of updated site's header in content -->
+<meta name="twitter:image" content="assets/images/sharing-card.png">
+
+
+<!-- Update favicon href attribute with image of yourself -->
+    <link
+      rel="shortcut icon"
+      href="../assets/images/favicon.png"
+      type="image/png"
+    />
+
+    <!-- Preloading fonts for better performance -->
+
+    <link
+      rel="preload"
+      href="assets/fonts/Mona-Sans.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+
+    <link rel="stylesheet" href="../style.css"  />
+    <script src="../script.js" defer></script>
+
+    <!-- Your name here -->
+    <title>Jules Vesnat's Portfolio</title>
+  </head>
+
+  <body>
+
+    <script>
+      const theme = localStorage.getItem("theme") || "JoanDark";
+      document.body.classList.add(theme);
+    </script>
+
+    <header class="header">
+
+      <div class="menu-btn-container">
+        <div class="container">
+          <button type="button"  class="menu-btn">menu</button>
+        </div>
+      </div>
+
+      <nav class="nav hidden">
+        <ol class="nav-items">
+          <li class="nav-item"><a href="../index.html">Home</a></li>
+          <li class="nav-item"><a href="val153.html">VAL153 Unity</a></li>
+        </ol>
+      </nav>
+
+      <div class="container">
+        <div class="header-textbox">
+          <!-- Replace with your name and job title -->
+          <h1 class="h1">
+            <span>Joan of Arc: Last Prophecy</span>
+            <span>A personal Unreal Engine 5 project</span>
+          </h1>
+
+          <!-- Add a small introductory paragraph about yourself -->
+          <p class="header-text">
+          A dark fantasy open world born from France’s medieval myths, divine voices, and the chaos of war.
+          </p>
+        </div>
+      </div>
+    </header>
+
+    <main>
+
+      <section class="work">
+        <div class="container">
+          <h2 class="h2" id="work">Concept & Project Vision</h2>
+          <div class="work-boxes">
+            <div class="work-box">
+              <div class="work-textbox">
+                <!-- Add your project title here -->
+                <h3 class="h3"><strong>Platform:</strong> Unreal Engine 5 (C++ & Blueprint)<br><br></h3>
+                <!-- Add small description of your project  -->
+                <p class="work-text"> 
+                  <em>Joan of Arc: Last Prophecy</em> is an open-world action RPG developed to strengthen my skills in 
+                  <strong>C++ programming, Blueprint scripting, and Unreal level design by 
+                    integrating Nanite for real-time rendering of high-polygon assets with automatic LOD handling</strong>.
+                </p>
+              </div>
+
+         <!-- Update img src and alt attribute  -->
+
+              <picture class="work-img">
+                <img
+                  loading="lazy"
+                  src="../assets/images/Joan/Unreal.webp"
+                  alt="agency elevation"
+                />
+              </picture>
+            </div>
+
+            <div class="work-box">
+              <div class="work-textbox">
+                <!-- Add your project title here -->
+                <h3 class="h3"><strong>Inspiration</strong></h3>
+                <!-- Add small description of your project  -->
+                <p class="work-text"> 
+                   The project draws inspiration from <strong>France’s historical and cultural heritage</strong>, 
+    centered on one of its most iconic figures — <strong>Joan of Arc</strong>, the young peasant girl who led 
+    the French army during the Hundred Years’ War before her capture and execution in 1431.
+                </p>
+              </div>
+
+         <!-- Update img src and alt attribute  -->
+
+              <picture class="work-img">
+                <img
+                  loading="lazy"
+                  src="../assets/images/Joan/joan_miniature.webp"
+                  alt="agency elevation"
+                />
+              </picture>
+            </div>
+             <div class="work-box">
+              <div class="work-textbox">
+                <!-- Add your project title here -->
+                <h3 class="h3"><strong>Dark Fantasy</strong></h3>
+                <!-- Add small description of your project  -->
+                <p class="work-text"> 
+                      Rather than a purely historical simulation, the concept blends <strong>authentic history with dark fantasy</strong>,
+                      inspired by <strong>French medieval folklore, myths, and superstitions</strong>. 
+                      This semi-historical, semi-fictional approach provides <strong>creative freedom</strong> in storytelling, 
+                      art direction, and gameplay — where divine voices, witchcraft, and mythical creatures coexist within a 
+                      grounded medieval world.
+                </p>
+              </div>
+
+         <!-- Update img src and alt attribute  -->
+
+              <picture class="work-img">
+                <img
+                  loading="lazy"
+                  src="../assets/images/Joan/tarasque.webp"
+                  alt="agency elevation"
+                />
+                </picture>
+            </div>
+          </div>
+        </div>
+      </section>
+
+<section class="work">
+        <div class="container">
+          <h2 class="h2" id="work">Narrative Direction & Game Design Document</h2>
+          <div class="work-boxes">
+            <div class="work-box">
+              <div class="work-textbox">
+             
+           <p>
+            The narrative explores <strong>faith, war, and destiny</strong> through a grounded yet mystical retelling of Joan’s journey.  
+            The Game Design Document (GDD) defines the core narrative structure, gameplay systems, and artistic direction.
+          </p>
+          <ul>
+            <li>Duality between light and darkness (faith vs corruption)</li>
+            <li>Mythical reinterpretation of real historical events</li>
+            <li>Integration of French folklore and religious mysticism into worldbuilding</li>
+          </ul>
+              </div>
+
+         <!-- Update img src and alt attribute  -->
+
+              <picture class="work-img">
+                <img
+                  loading="lazy"
+                  src="../assets/images/Joan/blood.webp"
+                  alt="agency elevation"
+                />
+              </picture>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="work">
+        <div class="container">
+          <h2 class="h2" id="work">Core Gameplay Development</h2>
+          <div class="work-boxes">
+            <div class="work-box">
+              <div class="work-textbox">
+             
+           <p>
+          Developed from scratch in <strong>C++ and Blueprint</strong>, the project currently includes the foundations 
+          of a <strong>third-person action RPG</strong>:
+          </p>
+           <ul class="work-textbox">
+    <li>Third-person character controller (movement, sprint, crouch, jump and camera behavior)</li>
+    <li>Player stats: health, stamina, experience, and level progression</li>
+    <li>Basic HUD integration</li>
+  </ul>
+          
+              </div>
+
+         <!-- Update img src and alt attribute  -->
+
+              <picture class="work-img">
+                <img
+                  loading="lazy"
+                  src="../assets/images/Joan/CoreGame.gif"
+                  alt="agency elevation"
+                />
+              </picture>
+            </div>
+           
+            <div class="work-box">
+              <div class="work-textbox">
+                <!-- Add your project title here -->
+                <h3 class="h3"><strong>Next features under development :</strong></h3>
+                <!-- Add small description of your project  -->
+                 <ul class="work-textbox">
+    <li>Combat system (melee, parry, and magic abilities)</li>
+    <li>Dialogue and NPC interaction system</li>
+    <li>AI for enemies and creatures</li>
+    <li>Quest and equipment systems</li>
+    <li>Faith-based and magical ability mechanics</li>
+    <li>Audio and ambient design integration</li>
+  </ul>
+              </div>
+
+         <!-- Update img src and alt attribute  -->
+
+              <picture class="work-img">
+
+              </picture>
+            </div>
+             <div class="work-box">
+              <div class="work-textbox">
+                <!-- Add your project title here -->
+                <h3 class="h3"><strong>Level Design</strong></h3>
+                <!-- Add small description of your project  -->
+    <pclass="work-textbox">
+  
+    The first playable area is currently being built using <strong>Quixel Megascans</strong>, 
+    focusing on realistic medieval architecture and atmosphere.
+  </p>
+              </div>
+
+         <!-- Update img src and alt attribute  -->
+
+              <picture class="work-img">
+<img
+                  loading="lazy"
+                  src="../assets/images/Joan/Quixel.webp"
+                  alt="agency elevation"
+                />
+              </picture>
+            </div>
+          </div>
+          
+        </div>
+         
+
+      </section>
+
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <!-- Update href and src attributes -->
+              <nav>
+            <ol class="footer-links">
+             
+              <li class="footer-link">
+                <a title="Codepen" href="https://www.linkedin.com/in/jules-vesnat/" target="_blank" rel="noopener"
+                  ><img
+                    loading="lazy"
+                    src="../assets/images/social-links/codepen.svg"
+                    alt="Codepen"
+                /></a>
+              </li>
+              <li class="footer-link">
+                <a title="Linkedin" href="https://www.linkedin.com/in/jules-vesnat/" target="_blank" rel="noopener"
+                  ><img
+                    loading="lazy"
+                    src="../assets/images/social-links/linkedin.svg"
+                    alt="Linkedin"
+                /></a>
+              </li>
+              <li class="footer-link">
+                <a title="Twitter" href="https://www.linkedin.com/in/jules-vesnat/" target="_blank" rel="noopener"
+                  ><img
+                    loading="lazy"
+                    src="../assets/images/social-links/twitter.svg"
+                    alt="Twitter"
+                /></a>
+              </li>
+            </ol>
+          </nav>
+          <p class="footer-text">
+            &copy; <span>2024</span> - Template designed & developed by <a target="_blank" rel="noopener" href="https://www.linkedin.com/in/jules-vesnat/">Jules Vesnat.</a>
+          </p>
+          <label class="theme-switch" for="theme-switch">
+            <span>Dark Theme</span>
+            <input type="checkbox" id="theme-switch" role="switch"/>
+          </label>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
