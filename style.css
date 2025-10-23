@@ -482,7 +482,7 @@ main {
 
 body.dark .header {
   background-image: linear-gradient(#0000008b, #000000e6),
-    url("assets/images/backgroundJoan.webp");
+    url("assets/images/hero-bg.webp");
 }
 
 body.light .header {
@@ -490,10 +490,6 @@ body.light .header {
     url("assets/images/hero-bg-light.webp");
 }
 
-body.JoanDark .header {
-  background-image: linear-gradient(#0000008b, #000000e6),
-    url("assets/images/backgroundJoan.webp");
-}
 
 .header-textbox {
   position: absolute;
