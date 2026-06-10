@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="index, follow" />
+
+    <!-- Read and update content attributes accordingly  -->
+
+    <meta
+      name="description"
+      content="Welcome to my portfolio website. I am a Technical Level Designer. Explore my projects, open-source work and contact me for any inquiries or collaborations."
+    />
+
+    <!-- Google / Search Engine Tags -->
+<meta itemprop="name" content="Jules Vesnat's Portfolio">
+<meta itemprop="description" content="Welcome to my portfolio website. I am a Technical Level Designer. Explore my projects, open-source work and contact me for any inquiries or collaborations.">
+
+<!-- Reference screenshot of updated site's header in place of content -->
+<meta itemprop="image" content="assets/images/sharing-card.png">
+
+<!-- Facebook Meta Tags -->
+<meta property="og:url" content="https://ossportfolio.netlify.app">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Jules Vesnat's Portfolio">
+<meta property="og:description" content="Welcome to my portfolio website. I am a Technical Level Designer. Explore my projects, open-source work and contact me for any inquiries or collaborations.">
+
+<!-- Reference screenshot of updated site's header in content -->
+<meta property="og:image" content="assets/images/sharing-card.png">
+
+<!-- Twitter Meta Tags -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Jules Vesnat's Portfolio">
+<meta name="twitter:description" content="Welcome to my portfolio website. I am a Technical Level Designer. Explore my projects, open-source work and contact me for any inquiries or collaborations.">
+
+<!-- Reference screenshot of updated site's header in content -->
+<meta name="twitter:image" content="assets/images/sharing-card.png">
+
+
+<!-- Update favicon href attribute with image of yourself -->
+    <link
+      rel="shortcut icon"
+      href="../assets/images/favicon.png"
+      type="image/png"
+    />
+
+    <!-- Preloading fonts for better performance -->
+
+    <link
+      rel="preload"
+      href="assets/fonts/Mona-Sans.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+
+    <link rel="stylesheet" href="../style.css"  />
+    <script src="../script.js" defer></script>
+
+    <!-- Your name here -->
+    <title>Jules Vesnat's Portfolio</title>
+  </head>
+
+  <body class="mask-page">
+
+    <script>
+      const theme = localStorage.getItem("theme") || "JoanDark";
+      document.body.classList.add(theme);
+    </script>
+
+    <header class="header">
+
+      <div class="menu-btn-container">
+        <div class="container">
+          <button type="button"  class="menu-btn">menu</button>
+        </div>
+      </div>
+
+      <nav class="nav hidden">
+        <ol class="nav-items">
+          <li class="nav-item"><a href="../index.html">Accueil</a></li>
+          <li class="nav-item"><a href="Grasse1387.html">Grasse 1387 : Le miroir des juges</a></li>
+          <li class="nav-item"><a href="Hors_Cyles.html">Hors Cycles</a></li>
+        </ol>
+      </nav>
+
+      <div class="container">
+        <div class="header-textbox">
+          <!-- Replace with your name and job title -->
+          <h1 class="h1">
+            <span>Le Secret du Masque de Fer</span>
+            <span>Expérience narrative immersive</span>
+          </h1>
+
+          <!-- Add a small introductory paragraph about yourself -->
+          <p class="header-text">
+          Une expérience immersive en réalité virtuelle inspirée de l’histoire du Masque de Fer et des mystères du Fort Royal de l’île Sainte-Marguerite, l’une des prisons d’État les plus secrètes du règne de Louis XIV.<br><br>
+
+À travers une enquête historique mêlant narration interactive, mise en scène cinématographique et exploration du patrimoine, le visiteur plonge dans l’atmosphère carcérale oppressante du XVIIe siècle, au cœur d’un dispositif de surveillance conçu pour préserver l’un des plus grands secrets du royaume.
+          </p>
+        </div>
+      </div>
+    </header>
+
+    <main>
+
+      <section class="work">
+        <div class="container">
+          <h2 class="h2" id="work">Concept et vision du projet</h2>
+          <div class="work-boxes">
+            <div class="work-box">
+              <div class="work-textbox">
+                <!-- Add your project title here -->
+                <h3 class="h3">Le mystère du Masque de Fer</h3>
+                <!-- Add small description of your project  -->
+                <p class="work-text"> 
+                  L’expérience s’inspire de l’un des plus grands mystères du règne de Louis XIV : l’emprisonnement de l’Homme au Masque de Fer. De Pignerol à Exilles, puis de Sainte-Marguerite à la Bastille, son parcours nourrit encore aujourd’hui une fascination collective faite de secrets d’État, de rumeurs et d’hypothèses contradictoires.
+                </p>
+              </div>
+
+         <!-- Update img src and alt attribute  -->
+
+              <picture class="work-img">
+                <img
+                  loading="lazy"
+                  src="../assets/images/irommask/masque.webp"
+                  alt="agency elevation"
+                />
+              </picture>
+            </div>
+
+            <div class="work-box">
+              <div class="work-textbox">
+                <!-- Add your project title here -->
+                <h3 class="h3">De la visite à l’expérience</h3>
+                <!-- Add small description of your project  -->
+                <p class="work-text"> 
+                  L’idée du projet est née lors de ma visite du Fort Royal de l’île Sainte-Marguerite. Face à une cellule presque vide et à une médiation limitée, j’ai été frappé par le contraste entre la puissance du mystère historique et l’expérience réellement proposée aux visiteurs. Le projet cherche à transformer cette visite en enquête immersive.
+                </p>
+              </div>
+
+         <!-- Update img src and alt attribute  -->
+
+              <picture class="work-img">
+                <img
+                  loading="lazy"
+                  src="../assets/images/irommask/cellule.png"
+                  alt="agency elevation"
+                />
+              </picture>
+            </div>
+             <div class="work-box">
+              <div class="work-textbox">
+                <!-- Add your project title here -->
+                <h3 class="h3">Direction narrative et créative</h3>
+                <!-- Add small description of your project  -->
+                <p class="work-text"> 
+                    J’ai porté la direction créative du projet, en articulant recherche historique, écriture du scénario, conception narrative, direction artistique, mécaniques d’enquête et prototypage immersif. Mon objectif était de transformer une matière historique complexe en une expérience claire, sensible et interactive.
+                </p>
+              </div>
+
+         <!-- Update img src and alt attribute  -->
+
+              <picture class="work-img">
+                <img
+                  loading="lazy"
+                  src="../assets/images/irommask/Le Secret du Masque de Fer.png"
+                  alt="agency elevation"
+                />
+                </picture>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="work">
+        <div class="container">
+          <h2 class="h2" id="work">Recherches historiques et conception narrative</h2>
+          <div class="work-boxes">
+            <div class="work-box">
+              <div class="work-textbox">
+                <!-- Add your project title here -->
+                <h3 class="h3">Les archives comme matière narrative</h3>
+                <!-- Add small description of your project  -->
+                <p class="work-text"> 
+                 Le scénario s’appuie sur les correspondances entre Louvois et Saint-Mars, les déplacements du prisonnier entre différentes forteresses, ainsi que les recherches historiques autour de son identité. Les archives ne servent pas seulement de documentation : elles deviennent la matière première du récit, des indices et de la progression dramatique.
+                </p>
+              </div>
+
+         <!-- Update img src and alt attribute  -->
+
+              <picture class="work-img">
+                <img
+                  loading="lazy"
+                  src="../assets/images/irommask/lettre.png"
+                  alt="agency elevation"
+                />
+              </picture>
+            </div>
+
+            <div class="work-box">
+              <div class="work-textbox">
+                <!-- Add your project title here -->
+                <h3 class="h3">Histoire, doute et fiction</h3>
+                <!-- Add small description of your project  -->
+                <p class="work-text"> 
+                  Le projet repose sur trois niveaux : la réalité historique, les zones d’ombre et la fiction immersive. Les faits attestés structurent le cadre, les incertitudes nourrissent l’enquête, et la fiction permet au visiteur d’entrer dans le mystère sans trahir le doute historique qui entoure encore l’affaire.
+                </p>
+              </div>
+
+         <!-- Update img src and alt attribute  -->
+
+              <picture class="work-img">
+                <img
+                  loading="lazy"
+                  src="../assets/images/irommask/doute.avif"
+                  alt="agency elevation"
+                />
+              </picture>
+            </div>
+             <div class="work-box">
+              <div class="work-textbox">
+                <!-- Add your project title here -->
+                <h3 class="h3">Le visiteur devient enquêteur</h3>
+                <!-- Add small description of your project  -->
+                <p class="work-text"> 
+                    Le visiteur incarne un moine janséniste infiltré au Fort Royal, chargé d’enquêter sur l’identité du prisonnier masqué dans un contexte de surveillance religieuse et politique sous Louis XIV. Ce point de vue donne un rôle clair au joueur : explorer, observer, collecter des indices et progresser dans un lieu conçu pour empêcher de voir et de savoir.
+                </p>
+              </div>
+
+         <!-- Update img src and alt attribute  -->
+
+              <picture class="work-img">
+                <img
+                  loading="lazy"
+                  src="../assets/images/irommask/office.jpg"
+                  alt="agency elevation"
+                />
+                </picture>
+            </div>
+          </div>
+        </div>
+      </section>
+
+            <section class="work">
+        <div class="container">
+          <h2 class="h2" id="work">Immersion et direction artistique</h2>
+          <div class="work-boxes">
+            <div class="work-box">
+              <div class="work-textbox">
+                <!-- Add your project title here -->
+                <h3 class="h3">Lumière méditerranéenne, obscurité carcérale</h3>
+                <!-- Add small description of your project  -->
+                <p class="work-text"> 
+                 La direction artistique repose sur un contraste fort : à l’extérieur, la lumière méditerranéenne de l’île Sainte-Marguerite ; à l’intérieur, l’obscurité carcérale, la pierre humide, les chandelles, les grilles et les couloirs étroits. Ce contraste renforce l’impression d’un secret enfoui au cœur d’un lieu pourtant lumineux.
+                </p>
+              </div>
+
+         <!-- Update img src and alt attribute  -->
+
+              <picture class="work-img">
+                <img
+                  loading="lazy"
+                  src="../assets/images/irommask/DA.png"
+                  alt="agency elevation"
+                />
+              </picture>
+            </div>
+
+            <div class="work-box">
+              <div class="work-textbox">
+                <!-- Add your project title here -->
+                <h3 class="h3">Narration environnementale</h3>
+                <!-- Add small description of your project  -->
+                <p class="work-text"> 
+                  Dans cette expérience, le lieu raconte autant que les dialogues. Les tambours de portes, les cellules, les objets administratifs, les lettres et les dispositifs de surveillance deviennent des éléments narratifs. Le visiteur comprend peu à peu que toute l’architecture du fort est pensée pour empêcher de voir, de savoir et de parler.
+                </p>
+              </div>
+
+         <!-- Update img src and alt attribute  -->
+
+              <picture class="work-img">
+                <img
+                  loading="lazy"
+                  src="../assets/images/irommask/carte.png"
+                  alt="agency elevation"
+                />
+              </picture>
+            </div>
+             <div class="work-box">
+              <div class="work-textbox">
+                <!-- Add your project title here -->
+                <h3 class="h3">Tension cinématographique</h3>
+                <!-- Add small description of your project  -->
+                <p class="work-text"> 
+                    La mise en scène cherche à faire monter l’attente avant la rencontre avec le prisonnier. Sons de portes, silence, voix étouffées, lumière faible et progression lente dans les espaces de surveillance créent une tension dramatique. Le Masque de Fer devient une présence avant même d’être visible.
+                </p>
+              </div>
+
+         <!-- Update img src and alt attribute  -->
+
+              <picture class="work-img">
+                <img
+                  loading="lazy"
+                  src="../assets/images/irommask/couloir.png"
+                  alt="agency elevation"
+                />
+                </picture>
+            </div>
+          </div>
+        </div>
+      </section>
+
+            <section class="work">
+        <div class="container">
+          <h2 class="h2" id="work">Prototype et validation culturelle</h2>
+          <div class="work-boxes">
+            <div class="work-box">
+              <div class="work-textbox">
+                <!-- Add your project title here -->
+                <h3 class="h3">Prototype VR Unity immersif</h3>
+                <!-- Add small description of your project  -->
+                <p class="work-text"> 
+                Un prototype Unity en vue 360° à la première personne permet de tester la mise en scène immersive d’une cellule reconstituée : clair-obscur, ambiance sonore, sensation d’enfermement et premières interactions. L’usage du gyroscope sur tablette ou smartphone sert à renforcer la présence du visiteur dans l’espace, tout en plaçant la technique au service de l’atmosphère et de la tension narrative.              </div>
+
+         <!-- Update img src and alt attribute  -->
+
+              <picture class="work-img">
+                <img
+                  loading="lazy"
+                  src="../assets/images/irommask/proto.gif"
+                  alt="agency elevation"
+                />
+              </picture>
+            </div>
+
+            <div class="work-box">
+              <div class="work-textbox">
+                <!-- Add your project title here -->
+                <h3 class="h3">Démarche de terrain</h3>
+                <!-- Add small description of your project  -->
+                <p class="work-text"> 
+                 Le projet s’appuie sur une démarche de terrain : visite du Fort Royal, échanges avec les gardiens de l’île, recherches iconographiques et confrontation du concept au lieu réel. Cette approche permet d’ancrer la fiction dans un patrimoine existant, avec ses contraintes, ses espaces et son histoire propre.
+                </p>
+              </div>
+
+         <!-- Update img src and alt attribute  -->
+
+              <picture class="work-img">
+                <img
+                  loading="lazy"
+                  src="../assets/images/irommask/visite.jpg"
+                  alt="agency elevation"
+                />
+              </picture>
+            </div>
+             <div class="work-box">
+              <div class="work-textbox">
+                <!-- Add your project title here -->
+                <h3 class="h3">Retours professionnels</h3>
+                <!-- Add small description of your project  -->
+                <p class="work-text"> 
+                    Le scénario et la démarche ont été présentés à Christophe Roustan Delatour, spécialiste du Masque de Fer et responsable culturel à Cannes. Ses retours ont confirmé l’intérêt historique, narratif et immersif du projet, ainsi que son potentiel dans une réflexion plus large sur les expériences numériques patrimoniales.
+                </p>
+              </div>
+
+         <!-- Update img src and alt attribute  -->
+
+              <picture class="work-img">
+                <img
+                  loading="lazy"
+                  src="../assets/images/irommask/livre.jpg"
+                  alt="agency elevation"
+                />
+                </picture>
+            </div>
+          </div>
+        </div>
+      </section>
+
+             <section class="work">
+        <div class="container">
+          <h2 class="h2" id="work">Conclusion</h2>
+          <div class="work-boxes">
+            <div class="work-box">
+              <div class="work-textbox">
+                <!-- Add your project title here -->
+                <h3 class="h3">Faire ressentir l’Histoire</h3>
+                <!-- Add small description of your project  -->
+                <p class="work-text"> 
+                L’objectif du projet n’est pas seulement d’expliquer l’histoire du Masque de Fer, mais de faire ressentir un lieu, une époque et un secret. À travers l’enquête, l’exploration et la mise en scène, l’expérience cherche à dépasser la simple reconstitution pour transformer le patrimoine en récit vivant.
+                </p>
+              </div>
+
+         <!-- Update img src and alt attribute  -->
+
+              <picture class="work-img">
+                <img
+                  loading="lazy"
+                  src="../assets/images/irommask/Masque_Fer.png"
+                  alt="agency elevation"
+                />
+              </picture>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <!-- Update href and src attributes -->
+              <nav>
+            <ol class="footer-links">
+             
+              <li class="footer-link">
+                <a title="Codepen" href="https://www.linkedin.com/in/jules-vesnat/" target="_blank" rel="noopener"
+                  ><img
+                    loading="lazy"
+                    src="../assets/images/social-links/codepen.svg"
+                    alt="Codepen"
+                /></a>
+              </li>
+              <li class="footer-link">
+                <a title="Linkedin" href="https://www.linkedin.com/in/jules-vesnat/" target="_blank" rel="noopener"
+                  ><img
+                    loading="lazy"
+                    src="../assets/images/social-links/linkedin.svg"
+                    alt="Linkedin"
+                /></a>
+              </li>
+              <li class="footer-link">
+                <a title="Twitter" href="https://www.linkedin.com/in/jules-vesnat/" target="_blank" rel="noopener"
+                  ><img
+                    loading="lazy"
+                    src="../assets/images/social-links/twitter.svg"
+                    alt="Twitter"
+                /></a>
+              </li>
+            </ol>
+          </nav>
+          <p class="footer-text">
+            &copy; <span>2026</span> - Website designed & developed by <a target="_blank" rel="noopener" href="https://www.linkedin.com/in/jules-vesnat/">Jules Vesnat.</a>
+          </p>
+          
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

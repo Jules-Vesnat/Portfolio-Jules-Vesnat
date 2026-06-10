@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="index, follow" />
+
+    <!-- Read and update content attributes accordingly  -->
+
+    <meta
+      name="description"
+      content="Welcome to my portfolio website. I am a Technical Level Designer. Explore my projects, open-source work and contact me for any inquiries or collaborations."
+    />
+
+    <!-- Google / Search Engine Tags -->
+<meta itemprop="name" content="Jules Vesnat's Portfolio">
+<meta itemprop="description" content="Welcome to my portfolio website. I am a Technical Level Designer. Explore my projects, open-source work and contact me for any inquiries or collaborations.">
+
+<!-- Reference screenshot of updated site's header in place of content -->
+<meta itemprop="image" content="assets/images/sharing-card.png">
+
+<!-- Facebook Meta Tags -->
+<meta property="og:url" content="https://ossportfolio.netlify.app">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Jules Vesnat's Portfolio">
+<meta property="og:description" content="Welcome to my portfolio website. I am a Technical Level Designer. Explore my projects, open-source work and contact me for any inquiries or collaborations.">
+
+<!-- Reference screenshot of updated site's header in content -->
+<meta property="og:image" content="assets/images/sharing-card.png">
+
+<!-- Twitter Meta Tags -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Jules Vesnat's Portfolio">
+<meta name="twitter:description" content="Welcome to my portfolio website. I am a Technical Level Designer. Explore my projects, open-source work and contact me for any inquiries or collaborations.">
+
+<!-- Reference screenshot of updated site's header in content -->
+<meta name="twitter:image" content="assets/images/sharing-card.png">
+
+
+<!-- Update favicon href attribute with image of yourself -->
+    <link
+      rel="shortcut icon"
+      href="../assets/images/favicon.png"
+      type="image/png"
+    />
+
+    <!-- Preloading fonts for better performance -->
+
+    <link
+      rel="preload"
+      href="assets/fonts/Mona-Sans.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+
+    <link rel="stylesheet" href="../style.css"  />
+    <script src="../script.js" defer></script>
+
+    <!-- Your name here -->
+    <title>Jules Vesnat's Portfolio</title>
+  </head>
+
+  <body class="grasse-page">
+
+    <script>
+      const theme = localStorage.getItem("theme") || "JoanDark";
+      document.body.classList.add(theme);
+    </script>
+
+    <header class="header">
+
+      <div class="menu-btn-container">
+        <div class="container">
+          <button type="button"  class="menu-btn">menu</button>
+        </div>
+      </div>
+
+      <nav class="nav hidden">
+        <ol class="nav-items">
+          <li class="nav-item"><a href="../index.html">Accueil</a></li>
+          <li class="nav-item"><a href="masque_de_fer.html">Le Secret du Masque de Fer</a></li>
+          <li class="nav-item"><a href="Hors_Cyles.html">Hors Cycles</a></li>
+        </ol>
+      </nav>
+
+      <div class="container">
+        <div class="header-textbox">
+          <!-- Replace with your name and job title -->
+          <h1 class="h1">
+            <span>Grasse 1387 — Le Miroir des Juges</span>
+            <span>Expérience narrative interactive de type Point & Click</span>
+          </h1>
+
+          <!-- Add a small introductory paragraph about yourself -->
+          <p class="header-text">
+          Une enquête historique interactive développée pour le futur Centre d'Interprétation de l'Architecture et du Patrimoine de Grasse.<br><br>
+
+          Au cœur du palais épiscopal de Grasse en 1387, le visiteur mène une enquête mêlant archives, témoignages, énigmes et exploration patrimoniale afin de faire émerger la vérité derrière un procès contesté.
+        </div>
+      </div>
+    </header>
+
+    <main>
+
+      <section class="work">
+        <div class="container">
+          <div class="work-boxes">
+            <div class="work-box">
+              <div class="work-textbox">
+                <h3 class="h3">Un projet pour le futur Centre d’Interprétation de l’Architecture et du Patrimoine de Grasse</h3>
+                <p class="work-text"> 
+                Le projet est développé dans le cadre de mon stage de fin d’études pour le futur Centre d’Interprétation de l’Architecture et du Patrimoine de la Ville de Grasse. Il s’agit d’une expérience interactive pensée pour une borne tactile intégrée au parcours de visite, afin de faire découvrir le palais épiscopal médiéval à travers une enquête narrative.
+                </p>
+              </div>
+
+         <!-- Update img src and alt attribute  -->
+
+              <picture class="work-img">
+                <img
+                  loading="lazy"
+                  src="../assets/images/Grasse1387/ciap.jpg"
+                  alt="agency elevation"
+                />
+              </picture>
+            </div>
+
+            <div class="work-box">
+              <div class="work-textbox">
+                <!-- Add your project title here -->
+                <h3 class="h3">Reconstituer un palais médiéval à partir des traces du présent</h3>
+                <!-- Add small description of your project  -->
+                <p class="work-text"> 
+                  La conception des décors s’appuie sur l’analyse du bâti conservé, les études historiques disponibles et des comparaisons avec d’autres résidences épiscopales médiévales. L’objectif n’est pas de produire un décor médiéval générique, mais de proposer une restitution plausible du groupe épiscopal de Grasse à la fin du XIVe siècle, en tenant compte des volumes, des ouvertures, des circulations et des transformations du lieu actuel.
+              </div>
+
+         <!-- Update img src and alt attribute  -->
+
+              <picture class="work-img">
+                <img
+                  loading="lazy"
+                  src="../assets/images/Grasse1387/reconstitution.png"
+                  alt="agency elevation"
+                />
+              </picture>
+            </div>
+             <div class="work-box">
+              <div class="work-textbox">
+                <!-- Add your project title here -->
+                <h3 class="h3">Comprendre le lieu en menant l’enquête</h3>
+                <!-- Add small description of your project  -->
+                <p class="work-text"> 
+                    Le visiteur explore le palais épiscopal à travers une affaire judiciaire fictive mais historiquement plausible. Chaque dialogue, chaque objet et chaque énigme participe à la progression de l’enquête tout en révélant le fonctionnement du lieu, ses occupants et les tensions politiques ou sociales de la ville à la fin du Moyen Âge. L’exploration n’est pas un simple prétexte : elle devient le moteur du récit.
+                </p>
+              </div>
+
+         <!-- Update img src and alt attribute  -->
+
+              <picture class="work-img">
+                <img
+                  loading="lazy"
+                  src="../assets/images/Grasse1387/tour du comte.png"
+                  alt="agency elevation"
+                />
+                </picture>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="work">
+        <div class="container">
+          <div class="work-boxes">
+            <div class="work-box">
+              <div class="work-textbox">
+                <!-- Add your project title here -->
+                <h3 class="h3">Un procès contesté au cœur des pouvoirs grassois</h3>
+                <!-- Add small description of your project  -->
+                <p class="work-text"> 
+                 L’intrigue met en scène une affaire judiciaire où se croisent intérêts politiques, rapports de pouvoir, dettes, privilèges et rivalités locales. Le visiteur doit reconstituer les faits, confronter les versions et chercher les preuves permettant de remettre en question le procès. Le titre Le Miroir des Juges évoque cette réflexion sur la justice, l’autorité et la responsabilité de ceux qui jugent.
+                </p>
+              </div>
+
+         <!-- Update img src and alt attribute  -->
+
+              <picture class="work-img">
+                <img
+                  loading="lazy"
+                  src="../assets/images/Grasse1387/tribunal.png"
+                  alt="agency elevation"
+                />
+              </picture>
+            </div>
+
+            <div class="work-box">
+              <div class="work-textbox">
+                <!-- Add your project title here -->
+                <h3 class="h3">Quand les archives deviennent des indices</h3>
+                <!-- Add small description of your project  -->
+                <p class="work-text"> 
+                  Les sources historiques ne sont pas seulement utilisées comme documentation : elles deviennent des objets interactifs au cœur de l’enquête. Le Livre Rouge des Consuls de Grasse, registre attesté dans les archives, est intégré comme élément central du gameplay. Sa consultation permet au visiteur de découvrir des créances, des dettes et des incohérences qui éclairent progressivement les motivations cachées derrière le procès.
+                </p>
+              </div>
+
+         <!-- Update img src and alt attribute  -->
+
+              <picture class="work-img">
+                <img
+                  loading="lazy"
+                  src="../assets/images/Grasse1387/livre_rouge.png"
+                  alt="agency elevation"
+                />
+              </picture>
+            </div>
+             <div class="work-box">
+              <div class="work-textbox">
+                <!-- Add your project title here -->
+                <h3 class="h3">Des personnages ancrés dans les institutions de la ville</h3>
+                <!-- Add small description of your project  -->
+                <p class="work-text"> 
+                    Les personnages permettent au visiteur de comprendre les institutions et les rapports sociaux de Grasse à la fin du XIVe siècle. Le consul, par exemple, porte un capuchon bicolore noir et blanc attesté dans les archives médiévales grassoises. Ses dialogues apportent des informations essentielles à l’enquête tout en introduisant le fonctionnement des institutions communales.
+                </p>
+              </div>
+
+         <!-- Update img src and alt attribute  -->
+
+              <picture class="work-img">
+                <img
+                  loading="lazy"
+                  src="../assets/images/Grasse1387/consul.png"
+                  alt="agency elevation"
+                />
+                </picture>
+            </div>
+          </div>
+        </div>
+      </section>
+
+            <section class="work">
+        <div class="container">
+          <div class="work-boxes">
+            <div class="work-box">
+              <div class="work-textbox">
+                <!-- Add your project title here -->
+                <h3 class="h3">Des décors conçus comme des espaces narratifs</h3>
+                <!-- Add small description of your project  -->
+                <p class="work-text"> 
+                 Chaque espace du jeu possède une fonction historique et narrative. Le Tinel, la salle basse, les espaces administratifs ou les lieux de conservation des archives ne sont pas de simples arrière-plans : ils structurent l’enquête, orientent les interactions et donnent corps à la société médiévale représentée. La direction artistique cherche à rendre ces espaces lisibles, crédibles et porteurs de sens.
+                </p>
+              </div>
+
+         <!-- Update img src and alt attribute  -->
+
+              <picture class="work-img">
+                <img
+                  loading="lazy"
+                  src="../assets/images/Grasse1387/Tinel.png"
+                  alt="agency elevation"
+                />
+              </picture>
+            </div>
+
+            <div class="work-box">
+              <div class="work-textbox">
+                <!-- Add your project title here -->
+                <h3 class="h3">Un format Point and Click adapté à la médiation patrimoniale</h3>
+                <!-- Add small description of your project  -->
+                <p class="work-text"> 
+                  Le choix du Point and Click permet de proposer une interaction simple, lisible et accessible sur borne tactile. Le visiteur observe les décors, sélectionne des objets, déclenche des dialogues, consulte des documents et progresse dans l’enquête à son rythme. Le format permet de valoriser l’image, l’observation et la curiosité, tout en restant adapté à un contexte de visite muséale.
+                </p>
+              </div>
+
+         <!-- Update img src and alt attribute  -->
+
+              <picture class="work-img">
+                <img
+                  loading="lazy"
+                  src="../assets/images/Grasse1387/prevote.png"
+                  alt="agency elevation"
+                />
+              </picture>
+            </div>
+             <div class="work-box">
+              <div class="work-textbox">
+                <!-- Add your project title here -->
+                <h3 class="h3">Une conception nourrie par les spécialistes et les sources</h3>
+                <!-- Add small description of your project  -->
+                <p class="work-text"> 
+                    Le projet s’appuie sur des échanges avec plusieurs spécialistes du patrimoine, de l’archéologie et de l’histoire, ainsi que sur l’étude de publications scientifiques, de rapports archéologiques et de sources historiques relatives aux lieux représentés. Cette démarche permet d’ancrer la fiction dans une connaissance précise du palais épiscopal, de son évolution architecturale et de son contexte politique et judiciaire.
+                </p>
+              </div>
+
+         <!-- Update img src and alt attribute  -->
+
+              <picture class="work-img">
+                <img
+                  loading="lazy"
+                  src="../assets/images/Grasse1387/archéo.png"
+                  alt="agency elevation"
+                />
+                </picture>
+            </div>
+            <div class="work-box">
+              <div class="work-textbox">
+                <!-- Add your project title here -->
+                <h3 class="h3">Faire du patrimoine une expérience vécue</h3>
+                <!-- Add small description of your project  -->
+                <p class="work-text"> 
+                    Le Miroir des Juges cherche à transformer la découverte du patrimoine en expérience narrative. En associant recherche historique, enquête, exploration et interaction, le projet propose au visiteur de comprendre Grasse médiévale non pas seulement en l’observant, mais en l’habitant le temps d’une investigation. L’histoire devient alors un espace à parcourir, à questionner et à reconstituer.
+                </p>
+              </div>
+
+         <!-- Update img src and alt attribute  -->
+
+              <picture class="work-img">
+                <img
+                  loading="lazy"
+                  src="../assets/images/Grasse1387/tour_de_justice.png"
+                  alt="agency elevation"
+                />
+                </picture>
+            </div>
+          </div>
+        </div>
+      </section>      
+        
+
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <!-- Update href and src attributes -->
+              <nav>
+            <ol class="footer-links">
+             
+              <li class="footer-link">
+                <a title="Codepen" href="https://www.linkedin.com/in/jules-vesnat/" target="_blank" rel="noopener"
+                  ><img
+                    loading="lazy"
+                    src="../assets/images/social-links/codepen.svg"
+                    alt="Codepen"
+                /></a>
+              </li>
+              <li class="footer-link">
+                <a title="Linkedin" href="https://www.linkedin.com/in/jules-vesnat/" target="_blank" rel="noopener"
+                  ><img
+                    loading="lazy"
+                    src="../assets/images/social-links/linkedin.svg"
+                    alt="Linkedin"
+                /></a>
+              </li>
+              <li class="footer-link">
+                <a title="Twitter" href="https://www.linkedin.com/in/jules-vesnat/" target="_blank" rel="noopener"
+                  ><img
+                    loading="lazy"
+                    src="../assets/images/social-links/twitter.svg"
+                    alt="Twitter"
+                /></a>
+              </li>
+            </ol>
+          </nav>
+          <p class="footer-text">
+            &copy; <span>2026</span> - Website designed & developed by <a target="_blank" rel="noopener" href="https://www.linkedin.com/in/jules-vesnat/">Jules Vesnat.</a>
+          </p>
+         
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
